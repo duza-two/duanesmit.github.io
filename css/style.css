@@ -1,0 +1,71 @@
+body, html {
+    height: 100%;
+}
+
+.homePage {
+    background-image: url("../img/pexels-photo-934062.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+a {
+    /* this is to remove the underline that appear on achor link when hovering over them*/
+    text-decoration: none !important
+}
+
+.meText {
+    font-family: 'Fira Sans', sans-serif;
+    position: relative;
+    top: 140px;
+    width: 400px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .meText {
+        font-size: 50px;
+    }
+    .homePage {
+        background-position: 50% 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .meText {
+        font-size: 33px;   
+        padding-right: 50px;
+    }
+}
+    
+.aboutPage {
+    background-color: #ececec;
+    height: 100%;
+    position: relative;
+}
+
+.aboutPage .mainText {
+    width: 100px;
+}
+
+.aboutPage .aboutPageText {
+    width: 400px;
+    margin: auto;
+}
+
+.aboutPage span img{
+    width: 300px;
+    height: 300px;
+}
+
+.slideSection {
+    margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .aboutPageText {
+        padding-right: 50px;
+    }
+}
