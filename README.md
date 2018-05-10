@@ -1,3 +1,3 @@
 # duanesmit.github.io
 
-This i my personal website hosted on the Github pages
+This is my personal website hosted on the Github pages
